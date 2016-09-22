@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  article
+    form(action='/gcm/send' method='post')
+      h2= '테스트 발송 시 디바이스 토큰을 입력해주세요. 없을 경우 대상기기 전체가 발송됩니다.'
+      p
+        input(type='text' name='token' placeholder='테스트기기 토큰')
+      h2= 'Android Push 발송하시겠습니까?'
+      p
+        input(type='submit' value='당장 실행해')
