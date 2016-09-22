@@ -1,4 +1,4 @@
-# Simple Push Sender #
+# Simple Push Sender with Node.js#
 
 You must modify the following files:
  - /config/database.js
